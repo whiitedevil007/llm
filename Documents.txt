@@ -38,3 +38,16 @@ Now , we will create a app.py file in which we will have our all logics to creat
 For run the application , open the terminal and write 
 
 streamlit run app.py 
+
+
+When you run your applcation then send this code to github repo . 
+WE will create a file (.gitignore) ---> venv , .env 
+
+open the terminal and write  
+git init 
+git add . 
+git status 
+git commit -m "added" 
+git branch -M main
+git remote add origin https://github.com/github_user_name/repo_name.git
+git push -u origin main
